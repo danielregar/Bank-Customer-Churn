@@ -5,6 +5,10 @@
 This project analyzes a customer churn dataset provided by Maven Analytics, containing 9,997 rows of historical customer data from a fictional bank. The primary objective is to **identify key patterns behind customer churn (Exited = 1)** and offer **actionable recommendations** to improve retention and customer experience across departments.
 
 ---
+The main objective is to answer:
+> **Who is churning, and where should the business focus to reduce it?**
+
+---
 
 ## 📊 Dataset Summary
 
@@ -77,16 +81,17 @@ This project analyzes a customer churn dataset provided by Maven Analytics, cont
 - The **age group 41–50** has the **highest number of churned customers (788)** across all three countries.
 - This pattern is consistent in **Germany, France, and Spain**.
 
+
 ---
 
-## 🧠 Business Insight
+## 🎯 Key Business Takeaway
 
-Churn is **not driven by tenure**, but rather by **customer profile and behavior**:
-- Geography (especially Germany)
-- Balance group (High and Very High)
-- Medium credit scores
-- Product usage (1 or more than 2)
-- Age group 41–50
+> Churn is **not random**, and it is **not primarily driven by tenure**.  
+> It’s most concentrated among **high-value customers** in specific behavioral and demographic segments:
+>
+> - **Germany** stands out as a churn hotspot
+> - Customers with **3–4 products**, especially in **High Balance + Medium Credit Score** groups, are at highest risk
+> - The **41–50 age group** consistently shows the most churned customers
 
 ---
 
@@ -94,34 +99,31 @@ Churn is **not driven by tenure**, but rather by **customer profile and behavior
 
 ### 👨‍💼 Customer Retention
 - Deploy churn-risk alerts for **medium credit score + high balance customers**, especially in Germany.
-- Launch targeted campaigns for **3–4 product users**, simplifying their product experience.
+- Launch personalized retention offers for high churn segments. Target high-balance customers in Germany with loyalty perks and reactivation messaging for inactive users.
 
 ### 📈 Marketing
 - Localize engagement strategies for **German customers** with tailored messaging.
-- Promote cross-sell strategies nudging 1-product users toward 2-product bundles.
+- Encourage cross-sell based on historical patterns where churn is lowest — avoid overwhelming users with too many products.
 
 ### 🧑‍💻 Product
 - Redesign product bundles with a focus on **2-product combinations**, which show lowest churn.
 - Audit churn journeys for **3–4 product users** to identify friction or mismatch.
+- Investigate whether these customers were upsold too aggressively or lacked support in using bundled services.
 
 ### 📊 Data & Analytics
 - Build a churn prediction model using: geography, balance, product usage, credit score, and activity.
 
 ### 🌍 Country/Regional Teams
 - Investigate churn causes in Germany through surveys or interviews.
+- Ensure VIPs are not slipping through unnoticed.
 - Customize support and onboarding flows for German users in High/Medium balance groups.
+- Those with 3 or 4 products may be overwhelmed — implement clearer onboarding or in-app guidance.
 
 ### 💼 Strategy & Finance
 - Quantify **financial loss from churn in high-value segments**.
 - Align LTV and churn-risk models to decide retention budget priorities.
+- Re-evaluate Germany's customer journey and service offering. With 32.46% churn and more inactive than active users, this region needs urgent strategic review.
 
----
-
-## 🔚 Final Summary
-
-> “This churn analysis shows that customer loss is **not random** — it follows distinct patterns by geography, product behavior, and value segment.  
-> High churn is concentrated in Germany, among medium-credit and high-balance users, and among customers with 1 or more than 2 products.  
-> By targeting these segments across departments, the business can **retain high-value customers**, reduce financial loss, and improve customer experience.”
 
 ---
 
@@ -144,4 +146,3 @@ This dataset was provided by **[Maven Analytics](https://www.mavenanalytics.io/d
 
 Built by **Daniel Siregar**  
 Aspiring Data Analyst | SQL | Power BI | Python  
-Connect on [LinkedIn](#)  
