@@ -2,7 +2,7 @@
 
 ## 📘 Project Overview
 
-This project analyzes a customer churn dataset provided by Maven Analytics, containing 9,997 rows of historical customer data from a fictional bank. The primary objective is to **identify key patterns behind customer churn (Exited = 1)** and offer **actionable recommendations** to improve retention and customer experience across departments.
+This project analyzes a customer churn dataset provided by Maven Analytics, containing 9,997 rows of historical customer data from a bank. The primary objective is to **identify key patterns behind customer churn (Exited = 1)** and offer **actionable recommendations** to improve retention and customer experience across departments.
 
 ---
 The main objective is to answer:
